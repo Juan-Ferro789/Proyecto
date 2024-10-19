@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu vuelo</title>
+    <link rel="stylesheet" href="/Css/Styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Búsqueda</a></li>
+                <li><a href="#">Reservar vuelo</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Información y ayuda</a></li>
+            </ul>
+            <select>
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </nav>
+    </header>
+
+    <!-- Hero section with airplane image -->
+    <section class="hero">
+        <img src="airplane-terminal.jpg" alt="Airplane in terminal">
+    </section>
+
+    <!-- Search section -->
+    <section class="search-section">
+        <div class="search-box">
+            <div class="trip-options">
+                <label for="round-trip">
+                    <input type="radio" id="round-trip" name="trip-type" checked> Ida y Vuelta
+                </label>
+                <label for="one-way">
+                    <input type="radio" id="one-way" name="trip-type"> Solo ida
+                </label>
+            </div>
+            <div class="search-fields">
+                <select name="origin">
+                    <option value="bogota">Bogotá D.C.</option>
+                </select>
+                <select name="destination">
+                    <option value="">Destino</option>
+                </select>
+                <input type="date" name="departure" value="2025-02-15">
+                <input type="date" name="return" value="2025-03-20">
+                <select name="passengers">
+                    <option value="1">1 pasajero</option>
+                </select>
+                <button>Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info section -->
+    <section class="info-section">
+        <div class="info-item">
+            <img src="interest.png" alt="Lugares de interés">
+            <p>Lugares de interés</p>
+        </div>
+        <div class="info-item">
+            <img src="activities.png" alt="Actividades sugeridas">
+            <p>Actividades sugeridas</p>
+        </div>
+        <div class="info-item">
+            <img src="services.png" alt="Prestador de servicios">
+            <p>Prestador de servicios</p>
+        </div>
+        <div class="info-item">
+            <img src="food.png" alt="Gastronomía">
+            <p>Gastronomía</p>
+        </div>
+        <div class="info-item">
+            <img src="events.png" alt="Eventos">
+            <p>Eventos</p>
+        </div>
+    </section>
+
+    <!-- Flight details section -->
+    <section class="details-section">
+        <div class="detail-item">
+            <h3>Equipaje</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="detail-item">
+            <h3>Aerolíneas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="detail-item">
+            <h3>Experiencia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
+
+    <!-- Offers section -->
+    <section class="offers-section">
+        <div class="offer">
+            <img src="airplane.jpg" alt="Offer image">
+            <div class="offer-text">25% Descuento <br>En todos nuestros vuelos</div>
+        </div>
+    </section>
+
+</body>
+</html>
